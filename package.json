@@ -1,0 +1,32 @@
+{
+  "name": "vesperplus",
+  "displayName": "VesperPlus",
+  "description": "A Vesper-based theme that keeps the original UI while using a One Dark Pro Mix inspired editor palette.",
+  "publisher": "l-igh-t",
+  "license": "MIT",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/l-igh-t/VesperPlus.git"
+  },
+  "homepage": "https://github.com/l-igh-t/VesperPlus",
+  "bugs": {
+    "url": "https://github.com/l-igh-t/VesperPlus/issues"
+  },
+  "engines": {
+    "vscode": "*"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "VesperPlus",
+        "uiTheme": "vs-dark",
+        "path": "./themes/VesperPlus-color-theme.json"
+      }
+    ]
+  },
+  "icon": "icon.png"
+}
